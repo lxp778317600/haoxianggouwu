@@ -1,0 +1,330 @@
+html,
+body,
+div,
+ul,
+li,
+p,
+span,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.heads {
+	width: 100%;
+	height: 139px;
+	border-bottom: 2px solid #2f2f2f;
+	background-color: white;
+}
+
+.heads_1 {
+	width: 966px;
+	margin: 0 auto;
+}
+
+.heads_p {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	color: #000;
+	margin-top: 53px;
+}
+.banner {
+	width: 100%;
+	height: 562px;
+	background-color: #fdf8f4;
+	overflow: hidden;
+}
+
+.bannar_left {
+	width: 990px;
+	height: 500px;
+	margin: 80px auto 0;
+}
+
+.one_ {
+	width: 560px;
+	height: 500px;
+	float: left;
+}
+
+.da_tow {
+	width: 417px;
+	height: 500px;
+	float: right;
+	background: #fff;
+	position: relative;
+}
+
+.tow_ {
+	width: 417px;
+	height: 430px;
+	background: #fff;
+	float: right;
+	border: 1px solid #e5e5e5;
+}
+
+.h1 {
+	height: 58px;
+	text-align: center;
+	float: inherit;
+	width: 100%;
+	height: inherit;
+	margin: 0;
+	line-height: 58px;
+	color: #fd632c;
+	border-bottom: 2px solid #ff494a;
+	font-size: 21px;
+}
+
+.h_1 {
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	color: #fd632c;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid #ff494a;
+}
+
+.Tishi {
+	width: 417px;
+	height: 62px;
+}
+
+.Tishi_p {
+	width: 24px;
+	height: 18px;
+	margin-left: 21px;
+	margin-top: 21px;
+	float: left;
+	background: url(../img/login_icons.png) no-repeat;
+	background-position: 0 0;
+}
+
+.Tishi p:nth-of-type(2) {
+	float: left;
+	margin-top: 23px;
+	color: gray;
+	margin-left: 8px;
+	font-size: 14px;
+}
+
+.login_user {
+	width: 417px;
+	height: 49px;
+	position: relative;
+}
+
+.inp1 {
+	width: 293px;
+	height: 43px;
+	margin-left: 20px;
+	padding-left: 80px;
+}
+
+.login_user > p {
+	width: 22px;
+	height: 25px;
+	position: absolute;
+	top: 12px;
+	left: 50px;
+	background: url(../img/login_icons.png);
+	background-position: 0 -32px;
+}
+.xcc{
+	width: 22px;
+	height: 22px;
+	background: url(../img/login_error.png) no-repeat;
+	position: absolute;
+	top: 13px;
+	right: 50px;
+	display: none;
+}
+.Ts_1 {
+	margin-top: 5px;
+	margin-left: 15px;
+	display: none;
+}
+
+.Ts_1 p {
+	float: left;
+	font-size: 13px;
+	margin-left: 5px;
+	color: gray;
+}
+
+.Ts_1 p:nth-child(1) {
+	width: 14px;
+	height: 14px;
+	background: url(../img/login_icons.png) no-repeat;
+	background-position: -35px -57px;
+}
+
+.login_user1 {
+	width: 417px;
+	height: 49px;
+	margin-top: 45px;
+	position: relative;
+}
+.Ts_2 {
+	margin-top: 5px;
+	margin-left: 15px;
+	display: none;
+}
+.xcc1{
+	width: 22px;
+	height: 22px;
+	background: url(../img/login_error.png) no-repeat;
+	position: absolute;
+	top: 13px;
+	right: 50px;
+	display: none;
+}
+.Ts_2 p {
+	float: left;
+	font-size: 13px;
+	margin-left: 5px;
+	color: gray;
+}
+
+.Ts_2 p:nth-child(1) {
+	width: 14px;
+	height: 14px;
+	background: url(../img/login_icons.png) no-repeat;
+	background-position: -35px -57px;
+}
+.inp2 {
+	width: 293px;
+	height: 43px;
+	margin-left: 20px;
+	padding-left: 80px;
+}
+
+.login_user1 > p {
+	width: 22px;
+	height: 30px;
+	position: absolute;
+	top: 12px;
+	left: 50px;
+	background: url(../img/login_icons.png);
+	background-position: 0 -68px;
+}
+
+.reurse {
+	width: 417px;
+	margin-top: 54px;
+	font-size: 13px;
+}
+
+.reurse_left {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+}
+.xgg{
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	background: url(../img/check.png) no-repeat;
+	background-position: -15px 0;
+	display: none;
+}
+.sp1 {
+	display: block;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.reurse_right {
+	float: right;
+	margin-right: 22px;
+}
+
+.a1:hover {
+	color: orange;
+}
+
+.a2:hover {
+	color: orange;
+}
+
+.btn {
+	width: 378px;
+	height: 50px;
+	margin-left: 22px;
+	margin-top: 30px;
+	border: none;
+	font-size: 22px;
+	color: #565656;
+	font-weight: bold;
+	background: #FDF8F4;
+}
+
+.btn:hover {
+	background: #EFEFEF;
+}
+
+.End_login {
+	width: 417px;
+	height: 20px;
+	margin-top: 20px;
+	position: absolute;
+	bottom: 28px;
+	font-size: 14px;
+}
+
+.left_log {
+	float: left;
+	margin-left: 30px;
+}
+
+.left_log span:nth-child(1) {
+	color: #565656;
+}
+
+.left_log a:hover {
+	color: orange;
+}
+
+.right_log {
+	float: right;
+	margin-right: 35px;
+}
+
+.right_log p {
+	float: left;
+	margin-left: 10px;
+}
+
+.right_log p:nth-child(1) {
+	width: 15px;
+	height: 20px;
+	background: url(../img/login_icons.png) no-repeat;
+	background-position: -35px 0;
+	margin-top: -2px;
+}
+
+.a3:hover {
+	color: orange;
+}

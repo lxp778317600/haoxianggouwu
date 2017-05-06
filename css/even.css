@@ -1,0 +1,48 @@
+.zhong1_1_left{
+	width: 1190px;
+	height: 26px;
+	margin: 20px auto 0;
+	border-bottom: 2px solid black;
+}
+.zhong1_1_left p:nth-child(1){
+	width: 7px;
+	height: 19px;
+	background: #B70841;
+	float: left;
+}
+.zhong1_1_left p:nth-child(2){
+	float: left;
+	margin-left: 5px;
+}
+.cen_ul{
+	width: 1164px;
+	height:981px;
+	margin: 20px auto 0;
+}
+.cen_ul li{
+	width: 564px;
+	height: 335px;
+	float: left;
+	border-bottom: 1px dashed  #E4E4E4;
+	margin-top: 20px;
+}
+.cen_ul li:nth-child(2){
+	margin-left: 20px;
+	margin-top: 0;
+}
+.cen_ul li:nth-child(4){
+	margin-left: 20px;
+}
+.cen_ul li:nth-child(6){
+	margin-left: 20px;
+}
+.cen_ul li:nth-child(1){
+	margin-top: 0;
+}
+.cen_ul li img{
+	width: 564px;
+	height: 289px;
+}
+.cen_ul li p{
+    margin-top: 10px;
+}
